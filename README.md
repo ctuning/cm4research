@@ -4,10 +4,6 @@ This repository provides a [unified MLCommons CM interface](https://doi.org/10.5
 to prepare, run and reproduce research projects from AI, ML and Systems conferences
 during [artifact evaluation and reproducibility initiatives](https://cTuning.org/ae).
 
-### Copyright
-
-2023 cTuning foundation (founding member of MLCommons)
-
 ### License
 
 [MIT](LICENSE.md)
