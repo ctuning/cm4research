@@ -97,7 +97,7 @@ and update `alias` in `_cm.yaml`. You can then extend it based on the following 
 * [CM script to reproduce MICRO paper](../../cm-mlops/script/reproduce-micro-paper-2023-victima) to reproduce results from a MICRO paper.
 * [CM script to reproduce IPOL journal paper](https://github.com/mlcommons/ck/tree/master/cm-mlops/script/reproduce-ipol-paper-2022-439)
   * [CM tutorial](https://github.com/mlcommons/ck/blob/master/docs/tutorials/reproduce-research-paper-ipol.md) to reproduce an IPOL journal paper.
-* [_cm.yaml description to download and extract files from Zenodo/Dropbox via CM](https://github.com/ctuning/mlcommons-ck/tree/master/cm-mlops/script/test-download-and-extract-artifacts)
+* [_cm.yaml description to download and extract files from Zenodo/Dropbox via CM](https://github.com/mlcommons/ck/tree/master/cm-mlops/script/test-download-and-extract-artifacts)
 
 After manually updating meta description of CM artifacts (`_cm.yaml` or `_cm.json`)
 you must reindex them as follows:
