@@ -99,6 +99,12 @@ and update `alias` in `_cm.yaml`. You can then extend it based on the following 
   * [CM tutorial](https://github.com/mlcommons/ck/blob/master/docs/tutorials/reproduce-research-paper-ipol.md) to reproduce an IPOL journal paper.
 * [_cm.yaml description to download and extract files from Zenodo/Dropbox via CM](https://github.com/ctuning/mlcommons-ck/tree/master/cm-mlops/script/test-download-and-extract-artifacts)
 
+After manually updating meta description of CM artifacts (`_cm.yaml` or `_cm.json`)
+you must reindex them as follows:
+```bash
+cm reindex repo
+```
+
 We are updating [a tutorial](https://github.com/mlcommons/ck/blob/master/docs/tutorials/common-interface-to-reproduce-research-projects.md) 
 to add CM interface to new projects and papers and will share it soon!
 
