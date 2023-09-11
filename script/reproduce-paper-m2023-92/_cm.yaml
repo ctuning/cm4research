@@ -22,6 +22,7 @@ prehook_deps: []
 script_name: run
 tags:
 - reproduce
+- project
 - paper
 - m
 - '2023'
