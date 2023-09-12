@@ -9,7 +9,7 @@ echo "ENV CM_EXPERIMENT: ${CM_EXPERIMENT}"
 
 echo "${CM_GIT_REPO_FPSG_UIUC_TEAAL_CHECKOUT_PATH}"
 
-echo "TBD: plot results"
+docker-compose run cl scripts/plot.sh
 
 test $? -eq 0 || exit 1
 
