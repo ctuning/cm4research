@@ -5,7 +5,9 @@ CUR_DIR=${PWD}
 echo ""
 echo "Current execution path: ${CUR_DIR}"
 echo "Path to script: ${CM_TMP_CURRENT_SCRIPT_PATH}"
-echo "ENV CM_EXPERIMENT: ${CM_EXPERIMENT}"
+
+echo "Changing to Victima repo: ${CM_GIT_REPO_CMU_SAFARI_VICTIMA_CHECKOUT_PATH}"
+cd ${CM_GIT_REPO_CMU_SAFARI_VICTIMA_CHECKOUT_PATH}
 
 if test -f "${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt"; then
   echo ""
@@ -15,3 +17,8 @@ if test -f "${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt"; then
   ${CM_PYTHON_BIN_WITH_PATH} -m pip install -r ${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt
   test $? -eq 0 || exit 1
 fi
+
+echo ""
+
+sh install_docker.sh
+test $? -eq 0 || exit 1
