@@ -7,6 +7,11 @@ echo "Current execution path: ${CUR_DIR}"
 echo "Path to script: ${CM_TMP_CURRENT_SCRIPT_PATH}"
 echo "ENV CM_EXPERIMENT: ${CM_EXPERIMENT}"
 
+
+cd ${CM_GIT_REPO_PHOTON_CHECKOUT_PATH}
 echo ""
-${CM_PYTHON_BIN_WITH_PATH} ${CM_TMP_CURRENT_SCRIPT_PATH}/main.py
+
+sh ./script/run-experiments/artifact.sh 
+
+#${CM_PYTHON_BIN_WITH_PATH} ${CM_TMP_CURRENT_SCRIPT_PATH}/main.py
 test $? -eq 0 || exit 1

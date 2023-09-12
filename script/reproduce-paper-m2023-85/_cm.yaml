@@ -3,22 +3,19 @@ automation_alias: script
 automation_uid: 5b4e0237da074764
 cache: false
 default_env:
-  CM_EXPERIMENT: '1'
+  CM_PHOTON_CONTAINER: docker
 deps:
 - tags: detect,os
 - names:
   - python
   - python3
   tags: get,python
-docker_input_mapping: {}
-input_description: {}
+- tags: get,git,repo,_repo.https://github.com/lchangxii/photon
+  env:
+      CM_GIT_ENV_KEY: 'PHOTON'
+  extra_cache_tags: artifact,photon
 input_mapping:
-  experiment: CM_EXPERIMENT
-new_env_keys: []
-new_state_keys: []
-post_deps: []
-posthook_deps: []
-prehook_deps: []
+  container: CM_PHOTON_CONTAINER
 script_name: run
 tags:
 - reproduce
@@ -27,18 +24,12 @@ tags:
 - m
 - '2023'
 - '85'
+- photon
 uid: 9e0b8254b62c4349
 variations:
-  analyze:
-    script_name: analyze
   install_deps:
     script_name: install_deps
   plot:
     script_name: plot
-  reproduce:
-    script_name: reproduce
   run:
     script_name: run
-  validate:
-    script_name: validate
-versions: {}
