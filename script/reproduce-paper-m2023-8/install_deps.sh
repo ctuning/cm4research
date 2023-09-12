@@ -5,13 +5,11 @@ CUR_DIR=${PWD}
 echo ""
 echo "Current execution path: ${CUR_DIR}"
 echo "Path to script: ${CM_TMP_CURRENT_SCRIPT_PATH}"
-echo "ENV CM_EXPERIMENT: ${CM_EXPERIMENT}"
 
-if test -f "${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt"; then
-  echo ""
-  echo "Installing requirements.txt ..."
-  echo ""
+echo "${CM_GIT_REPO_FPSG_UIUC_TEAAL_CHECKOUT_PATH}"
+cd ${CM_GIT_REPO_FPSG_UIUC_TEAAL_CHECKOUT_PATH}
 
-  ${CM_PYTHON_BIN_WITH_PATH} -m pip install -r ${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt
-  test $? -eq 0 || exit 1
-fi
+echo "TBD: call script to install deps and set Docker"
+
+test $? -eq 0 || exit 1
+

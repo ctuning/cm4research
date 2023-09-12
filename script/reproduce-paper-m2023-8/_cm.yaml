@@ -10,16 +10,12 @@ deps:
   - python
   - python3
   tags: get,python
-docker_input_mapping: {}
-input_description: {}
+- tags: get,git,repo,_repo.https://github.com/FPSG-UIUC/micro23-teaal-artifact
+  env:
+    CM_GIT_ENV_KEY: 'FPSG_UIUC_TEAAL'
+  extra_cache_tags: artifact,fpsg,uiuc,teaal
 input_mapping:
   experiment: CM_EXPERIMENT
-new_env_keys: []
-new_state_keys: []
-post_deps: []
-posthook_deps: []
-prehook_deps: []
-script_name: run
 tags:
 - reproduce
 - project
@@ -29,16 +25,9 @@ tags:
 - '8'
 uid: 1f15f5f53c6d469a
 variations:
-  analyze:
-    script_name: analyze
   install_deps:
     script_name: install_deps
-  plot:
-    script_name: plot
-  reproduce:
-    script_name: reproduce
   run:
     script_name: run
-  validate:
-    script_name: validate
-versions: {}
+  plot:
+    script_name: plot
