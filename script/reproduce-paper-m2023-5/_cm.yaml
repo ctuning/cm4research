@@ -2,43 +2,24 @@ alias: reproduce-paper-m2023-5
 automation_alias: script
 automation_uid: 5b4e0237da074764
 cache: false
-default_env:
-  CM_EXPERIMENT: '1'
-deps:
-- tags: detect,os
-- names:
-  - python
-  - python3
-  tags: get,python
+deps: []
 docker_input_mapping: {}
 input_description: {}
-input_mapping:
-  experiment: CM_EXPERIMENT
+input_mapping: {}
 new_env_keys: []
 new_state_keys: []
 post_deps: []
 posthook_deps: []
 prehook_deps: []
-script_name: run
 tags:
 - reproduce
-- project
 - paper
-- m
-- '2023'
+- m2023
 - '5'
-uid: e797cf3e94764bf9
+uid: e3a42d0dc64b4f8f
 variations:
-  analyze:
-    script_name: analyze
   install_deps:
-    script_name: install_deps
-  plot:
-    script_name: plot
-  reproduce:
-    script_name: reproduce
+      script_name: install_deps
   run:
-    script_name: run
-  validate:
-    script_name: validate
+      script_name: run
 versions: {}
