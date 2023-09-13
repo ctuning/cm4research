@@ -5,18 +5,45 @@ CUR_DIR=${PWD}
 echo ""
 echo "Current execution path: ${CUR_DIR}"
 echo "Path to script: ${CM_TMP_CURRENT_SCRIPT_PATH}"
-echo "ENV CM_EXPERIMENT: ${CM_EXPERIMENT}"
 
-echo "Changing to Photon repo: ${CM_GIT_REPO_PHOTON_CHECKOUT_PATH}"
-cd ${CM_GIT_REPO_PHOTON_CHECKOUT_PATH}
 
-if test -f "${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt"; then
-  echo ""
-  echo "Installing requirements.txt ..."
-  echo ""
 
-  ${CM_PYTHON_BIN_WITH_PATH} -m pip install -r ${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt
-  test $? -eq 0 || exit 1
-fi
+container="docker"
 
-sh script/install_dep/install_docker.sh
+
+if [ "${container}" = "docker" ]; then
+
+  echo "==================  Install Docker container (you can skip if already installed)=================="
+
+  sudo apt-get update
+  sudo apt-get -y install \
+      apt-transport-https \
+      ca-certificates \
+      curl \
+      gnupg \
+      lsb-release \
+      tar 
+
+  # Add Docker’s official GPG key
+  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+  echo \
+    "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+  sudo apt-get update
+  sudo apt-get -y install docker-ce docker-ce-cli containerd.io
+
+  sudo usermod -aG docker $USER
+
+  su - $USER
+
+else 
+
+echo "==================  Install Podman container (you can skip if already installed)=================="
+
+sudo apt-get update 
+sudo apt-get -y install podman
+su - $USER
+
+fi 
