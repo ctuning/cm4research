@@ -18,8 +18,10 @@ cd "${CM_GIT_REPO_G10_CHECKOUT_PATH}"
 cd src
 make clean
 make -j"$(nproc)"
+
 cd resources
-python3 genconfigs.py
+${CM_PYTHON_BIN_WITH_PATH} genconfigs.py
+
 tmux kill-server > /dev/null 2> /dev/null
 
 # First run experiments for figure 11-14
