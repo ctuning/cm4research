@@ -16,7 +16,8 @@ cd memory_channel_interleave_ratios
 ./run.sh
 test $? -eq 0 || exit 1
 
-mkdir -p ../results/memory_channel_interleave_ratios_results
+mkdir -p ${CUR_DIR}/results/memory_channel_interleave_ratios
+test $? -eq 0 || exit 1
 
-cp results.csv ../results/memory_channel_interleave_ratios_results
+cp results.csv ${CUR_DIR}/results/memory_channel_interleave_ratios
 test $? -eq 0 || exit 1
