@@ -11,6 +11,7 @@ deps:
 - tags: get,generic-python-lib,_pandas
 - tags: get,generic-python-lib,_matplotlib
 - tags: get,git,repo,_repo.https://github.com/neel-patel-1/XFM_MICRO2023
+# - tags: download,file,url.https://spec2017iso.s3.us-east-2.amazonaws.com/cpu2017-1_0_5.iso
   env:
     CM_GIT_ENV_KEY: 'XFM'
   extra_cache_tags: micro23,artifact,ae,xfm

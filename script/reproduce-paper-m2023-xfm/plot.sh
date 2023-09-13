@@ -16,7 +16,6 @@ cd xfm_access_model
 ${CM_PYTHON_BIN_WITH_PATH} xfm_access_model.py
 test $? -eq 0 || exit 1
 
-mkdir -p ../results/xfm_access_model
+mkdir -p ${CUR_DIR}/results/XFM_Access_Results
 
-cp XFM_Access_Distribution.png ../results/xfm_access_model
-cp XFM_Access_Distribution.png ${CUR_DIR}
+cp XFM_Access_Distribution.png ${CUR_DIR}/results/XFM_Access_Results
