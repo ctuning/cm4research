@@ -24,6 +24,9 @@ The goal is to make it easier for the community and evaluators
 to start reproducing/replicating research results 
 and even fully automate this process in the future.
 
+Note that it's a pilot project - we are very interested in your feedback to improve this interface
+and simplify and automate artifact evaluation. Feel free to contact us via this [Discord server](https://discord.gg/JjWNWXKxwT).
+
 ## License
 
 [MIT](LICENSE.md)
@@ -110,5 +113,6 @@ to add CM interface to new projects and papers and will share it soon!
 
 ## Contact us
 
-Don't hesitate to reach the MLCommons Task Force on Automation and Reproducibility and the cTuning foundation (CM developers)
-to provide your feedback, get help or brainstorm ideas using this public [Discord server]([Discord server](https://discord.gg/JjWNWXKxwT)).
+Don't hesitate to reach the [MLCommons Task Force on Automation and Reproducibility](https://github.com/mlcommons/ck/blob/master/docs/taskforce.md) 
+and the [cTuning foundation](https://cTuning.org) (developers of the open-source CM automation language and CK playground)
+to provide your feedback, get help or brainstorm ideas using this public [Discord server](https://discord.gg/JjWNWXKxwT).
