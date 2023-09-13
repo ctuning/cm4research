@@ -18,7 +18,7 @@ Install this repository with CM interface for reproduced experiments:
 cm pull repo ctuning@cm-reproduce-research-projects
 ```
 
-### Run Photon via CM interface
+### Run G10 via CM interface
 
 Perform the following steps to evaluate Photon with MLCommons CM automation language:
 
