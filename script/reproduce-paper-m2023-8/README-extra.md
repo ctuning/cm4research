@@ -27,7 +27,14 @@ To install dependencies, run:
 cmr "reproduce paper m 2023 8 _install_deps"
 ```
 
-To check that the environment is correctly set up and evaluate each accelerator configuration on a small example, run:
+Note that the install script makes its best guess for the correct UID and GID
+for the container to be using (the current user's UID and GID).  If you would
+like to change the UID and/or GID of the container, you can do so in the
+artifact repository `/path/to/<some hash>/repo/docker-compose.yaml`.
+Instructions for finding this repository are below.
+
+To check that the environment is correctly set up and evaluate each accelerator
+configuration on a small example, run:
 
 ```bash
 cmr "reproduce paper m 2023 8 _check"
@@ -44,8 +51,19 @@ To plot the results of the real experiments, run
 cmr "reproduce paper m 2023 8 _plot"
 ```
 
-The plots will be stored at `/path/to/CM/repos/local/cache/<some hash>/data/plots`. The hash is printed whenever any of the scripts is called.
-You can find this directory via CM as follows:
+The plots will be stored in the artifact repository at `/path/to/<some
+hash>/repo/data/plots`. Instructions for finding this repository are below.
+
+To plot pregenerated results (e.g., if you don't want to run the experiments
+yourself), run:
+
+```bash
+cmr "reproduce paper m 2023 8 _plot_pregenerated"
+```
+
+### Finding the Artifact Repository
+
+You can also find this directory via CM as follows:
 ```bash
 cm show cache --tags=git,artifact,fpsg,teaal
 ```
@@ -54,7 +72,3 @@ or
 cm find cache --tags=git,artifact,fpsg,teaal
 ```
 
-To plot pregenerated results (e.g., if you don't want to run the experiments yourself), run:
-```bash
-cmr "reproduce paper m 2023 8 _plot_pregenerated"
-```
