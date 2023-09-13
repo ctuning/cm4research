@@ -12,6 +12,13 @@ Install this repository with CM interface for reproduced experiments:
 cm pull repo ctuning@cm-reproduce-research-projects
 ```
 
+## Install Python virtual environment via CM
+
+```bash
+cm run script "install python-venv" --name=reproducibility
+export CM_SCRIPT_EXTRA_CMD="--adr.python.name=reproducibility"
+```
+
 ## Run TeAAL via the CM interface
 
 To install dependencies, run:
@@ -38,6 +45,14 @@ cmr "reproduce paper m 2023 8 _plot"
 ```
 
 The plots will be stored at `/path/to/CM/repos/local/cache/<some hash>/data/plots`. The hash is printed whenever any of the scripts is called.
+You can find this directory via CM as follows:
+```bash
+cm show cache --tags=git,artifact,fpsg,teaal
+```
+or
+```bash
+cm find cache --tags=git,artifact,fpsg,teaal
+```
 
 To plot pregenerated results (e.g., if you don't want to run the experiments yourself), run:
 ```bash
