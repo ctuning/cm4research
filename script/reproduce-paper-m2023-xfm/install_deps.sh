@@ -11,6 +11,10 @@ cd ${CM_GIT_REPO_XFM_CHECKOUT_PATH}
 
 echo ""
 
+# Done via _cm.yaml
+#${CM_PYTHON_BIN_WITH_PATH} -m pip install pandas
+#${CM_PYTHON_BIN_WITH_PATH} -m pip install matplotlib
+
 git submodule update --init --recursive .
 test $? -eq 0 || exit 1
 

@@ -8,6 +8,8 @@ deps:
   - python
   - python3
   tags: get,python
+- tags: get,generic-python-lib,_pandas
+- tags: get,generic-python-lib,_matplotlib
 - tags: get,git,repo,_repo.https://github.com/neel-patel-1/XFM_MICRO2023
   env:
     CM_GIT_ENV_KEY: 'XFM'

@@ -13,7 +13,7 @@ echo ""
 
 cd xfm_access_model
 
-python3 xfm_access_model.py
+${CM_PYTHON_BIN_WITH_PATH} xfm_access_model.py
 test $? -eq 0 || exit 1
 
 mkdir -p ../results/xfm_access_model
