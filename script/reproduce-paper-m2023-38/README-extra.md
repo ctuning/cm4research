@@ -22,7 +22,7 @@ cm pull repo ctuning@cm-reproduce-research-projects
 
 Perform the following steps to evaluate G10 Artifact with MLCommons CM automation language:
 
-1) This command will install all the dependencies for G10 and require sudo:
+1) This command will install all the dependencies for G10 and requires sudo:
 
 ```bash
 cmr "reproduce project micro-2023 G10 _install_deps"
