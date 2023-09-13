@@ -4,9 +4,8 @@
 
 This CM repository contains a [unified Collective Mind interface (MLCommons CM)](https://github.com/mlcommons/ck) 
 to access, run and reproduce experimetns from research projects and papers (ACM, IEEE, NeurIPS, ICML ...)
-using artifact evaluation methodology and [Collective Mind automation language](https://doi.org/10.5281/zenodo.8105339)
-from [MLCommons](https://doi.org/10.5281/zenodo.8105339), [ACM/cTuning](https://cTuning.org/ae) 
-and [NeurIPS](https://jmlr.org/papers/volume22/20-303/20-303.pdf).
+using artifact evaluation methodology and automation from [MLCommons](https://doi.org/10.5281/zenodo.8105339), 
+[ACM/cTuning](https://cTuning.org/ae) and [NeurIPS](https://jmlr.org/papers/volume22/20-303/20-303.pdf).
 
 ## Why?
 
