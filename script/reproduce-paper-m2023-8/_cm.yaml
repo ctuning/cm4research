@@ -27,7 +27,11 @@ uid: 1f15f5f53c6d469a
 variations:
   install_deps:
     script_name: install_deps
+  check:
+    script_name: check
   run:
     script_name: run
   plot:
     script_name: plot
+  plot_pregenerated:
+    script_name: plot_pregenerated
