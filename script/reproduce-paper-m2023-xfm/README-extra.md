@@ -2,30 +2,6 @@
 
 Original repository: https://github.com/neel-patel-1/XFM_MICRO2023.git
 
-* Instructions on Ubuntu 20.04
-```sh
-python3 -m venv cm
-source cm/bin/activate
-
-```
-
-
-### Reusability using MLCommons CM automation language
-
-Install MLCommmons CM using [this guide](https://github.com/mlcommons/ck/blob/master/docs/installation.md).
-
-Install reusable MLCommons automations: 
-
-```bash
-cm pull repo mlcommons@ck
-```
-
-
-
-# CM script to run and reproduce experiments
-
-Original repository: https://github.com/neel-patel-1/XFM_MICRO2023.git
-
 ### Reusability using MLCommons CM automation language
 
 Install MLCommmons CM using [this guide](https://github.com/mlcommons/ck/blob/master/docs/installation.md).
@@ -60,4 +36,4 @@ cmr "reproduce project micro-2023 xfm _run"
 cmr "reproduce project micro-2023 xfm _plot"
 ```
 
-You should find `XFM_Access_Distribution.png` in your current directory.
+You should find `XFM_Access_Distribution.png` and `results.csv` in the `results` folder current directory.
