@@ -1,17 +1,24 @@
-#!/bin/bash
+echo "==================  Install Docker container (you can skip if already installed)=================="
 
-CUR_DIR=${PWD}
+sudo apt-get update
+sudo apt-get -y install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release \
+    tar 
 
-echo ""
-echo "Current execution path: ${CUR_DIR}"
-echo "Path to script: ${CM_TMP_CURRENT_SCRIPT_PATH}"
-echo "ENV CM_EXPERIMENT: ${CM_EXPERIMENT}"
+# Add Docker’s official GPG key
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
-if test -f "${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt"; then
-  echo ""
-  echo "Installing requirements.txt ..."
-  echo ""
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-  ${CM_PYTHON_BIN_WITH_PATH} -m pip install -r ${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt
-  test $? -eq 0 || exit 1
-fi
+sudo apt-get update
+sudo apt-get -y install docker-ce docker-ce-cli containerd.io
+
+sudo usermod -aG docker $USER
+
+su - $USER
