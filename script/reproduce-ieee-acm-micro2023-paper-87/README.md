@@ -1,6 +1,6 @@
 # CM script to run and reproduce experiments
 
-Archived artifact: https://zenodo.org/record/8218698/files/Clockhands_Artifact_MICRO2023.tar?download=1
+Archived artifact: https://zenodo.org/record/8218698
 
 ## Reusability using MLCommons CM automation language
 
