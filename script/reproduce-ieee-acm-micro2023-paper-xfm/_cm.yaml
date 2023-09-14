@@ -11,10 +11,11 @@ deps:
 - tags: get,generic-python-lib,_pandas
 - tags: get,generic-python-lib,_matplotlib
 - tags: get,git,repo,_repo.https://github.com/neel-patel-1/XFM_MICRO2023
-# - tags: download,file,url.https://spec2017iso.s3.us-east-2.amazonaws.com/cpu2017-1_0_5.iso
+- tags: download,file,url.https://spec2017iso.s3.us-east-2.amazonaws.com/cpu2017-1_0_5.iso
   env:
     CM_GIT_ENV_KEY: 'XFM'
-  extra_cache_tags: micro23,artifact,ae,xfm
+  extra_cache_tags: micro23,artifact,ae,xfm,spec
+  force_cache: true
 script_name: run
 tags:
 - reproduce
@@ -31,3 +32,7 @@ variations:
     script_name: plot
   run:
     script_name: run
+  install_spec_deps:
+    script_name: install_spec_deps.sh
+  run_spec:
+    script_name: run_spec.sh
