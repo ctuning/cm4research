@@ -27,3 +27,11 @@ cmr "reproduce project micro-2023 22 _install_deps_pytorch"
 cmr "reproduce project micro-2023 22 _install_deps_transformers"
 ```
 
+
+### Run experiments
+
+```bash
+cmr "reproduce project micro-2023 22 _run_figure13"
+cmr "reproduce project micro-2023 22 _run_figure11"
+cmr "reproduce project micro-2023 22 _run_figure12"
+```
