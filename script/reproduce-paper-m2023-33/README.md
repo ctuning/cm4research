@@ -62,7 +62,7 @@ cmr "reproduce project m 2023 33 _install_deps_gem5"
 ### Run experiments Using gem5
 
 ```bash
-cmr "reproduce project m 2023 33"
+cmr "reproduce project m 2023 33 _run"
 ```
 
 ### Collect data and reproduce results
