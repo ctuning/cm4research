@@ -8,11 +8,12 @@ echo "Path to script: ${CM_TMP_CURRENT_SCRIPT_PATH}"
 
 echo "${CM_ARTIFACT_CLOCKHANDS_EXTRACTED}"
 
-cd ${CM_ARTIFACT_CLOCKHANDS_EXTRACTED}/Clockhands_Artifact_MICRO2023
+cd ${CM_ARTIFACT_CLOCKHANDS_EXTRACTED}/Clockhands_Artifact_MICRO2023/ClockhandsEvaluation
 
 
 cd A-riscv/
 git clone https://github.com/riscv-collab/riscv-gnu-toolchain
+
 cd riscv-gnu-toolchain/
 
 git checkout 2022.01.17
