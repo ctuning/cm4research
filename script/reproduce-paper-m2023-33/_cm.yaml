@@ -2,23 +2,16 @@ alias: reproduce-paper-m2023-33
 automation_alias: script
 automation_uid: 5b4e0237da074764
 cache: false
-default_env:
-  CM_EXPERIMENT: '1'
 deps:
 - tags: detect,os
 - names:
   - python
   - python3
   tags: get,python
-docker_input_mapping: {}
-input_description: {}
-input_mapping:
-  experiment: CM_EXPERIMENT
-new_env_keys: []
-new_state_keys: []
-post_deps: []
-posthook_deps: []
-prehook_deps: []
+- tags: get,git,repo,_repo.https://github.com/filipmazurek/spa-artifact
+  env:
+    CM_GIT_ENV_KEY: 'SPA_ARTIFACT'
+  extra_cache_tags: micro23,artifact,ae,spa_artifact
 script_name: run
 tags:
 - reproduce
@@ -41,4 +34,3 @@ variations:
     script_name: run
   validate:
     script_name: validate
-versions: {}

@@ -5,13 +5,11 @@ CUR_DIR=${PWD}
 echo ""
 echo "Current execution path: ${CUR_DIR}"
 echo "Path to script: ${CM_TMP_CURRENT_SCRIPT_PATH}"
-echo "ENV CM_EXPERIMENT: ${CM_EXPERIMENT}"
 
-if test -f "${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt"; then
-  echo ""
-  echo "Installing requirements.txt ..."
-  echo ""
+echo "Changing to SPAM repo: ${CM_GIT_REPO_SPA_ARTIFACT_CHECKOUT_PATH}"
+cd ${CM_GIT_REPO_SPA_ARTIFACT_CHECKOUT_PATH}
 
-  ${CM_PYTHON_BIN_WITH_PATH} -m pip install -r ${CM_TMP_CURRENT_SCRIPT_PATH}/requirements.txt
-  test $? -eq 0 || exit 1
-fi
+echo ""
+
+bash ./artifact-bash-scripts/set-up-docker.sh
+test $? -eq 0 || exit 1
