@@ -1,0 +1,34 @@
+alias: reproduce-paper-m2023-87
+automation_alias: script
+automation_uid: 5b4e0237da074764
+cache: false
+deps:
+- tags: detect,os
+- names:
+  - python
+  - python3
+  tags: get,python
+- tags: download-and-extract,_extract,_url.https://zenodo.org/record/8218698/files/Clockhands_Artifact_MICRO2023.tar?download=1
+  env:
+    CM_DOWNLOAD_FINAL_ENV_NAME: CM_ARTIFACT_CLOCKHANDS
+    CM_EXTRACT_FINAL_ENV_NAME: CM_ARTIFACT_CLOCKHANDS_EXTRACTED
+#    CM_DOWNLOAD_CHECKSUM: 
+  force_cache: true
+  extra_cache_tags: reproduce,paper,artifact,micro,clockhands
+tags:
+- reproduce
+- project
+- paper
+- m
+- micro
+- micro-2023
+- '2023'
+- '87'
+uid: bd56037bf32c4b71
+variations:
+  install_deps:
+    script_name: install_deps
+  run:
+    script_name: run
+  plot:
+    script_name: plot
