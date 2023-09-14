@@ -13,7 +13,7 @@ deps:
     CM_GIT_ENV_KEY: 'SPA_ARTIFACT'
   extra_cache_tags: micro23,artifact,ae,spa_artifact
   skip_if_env:
-    CM_RUN_INSIDE_CONTAINER:
+    CM_RUN_INSIDE_DOCKER:
     - yes
 script_name: run
 tags:
