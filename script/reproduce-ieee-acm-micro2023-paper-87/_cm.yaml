@@ -24,11 +24,31 @@ tags:
 - micro-2023
 - '2023'
 - '87'
+- clockhands
+- Clockhands
 uid: bd56037bf32c4b71
 variations:
   install_deps:
     script_name: install_deps
-  run:
-    script_name: run
+  build_compiler:
+    script_name: build_compiler
+  create_binary:
+    script_name: create_binary
+  build_onikiri:
+    script_name: build_onikiri
+  experiment_setup:
+    script_name: experiment_setup
+  experiment:
+    script_name: experiment
   plot:
     script_name: plot
+  Preliminary_build_onikiri:
+    script_name: Preliminary_build_onikiri
+  Preliminary_create_binary:
+    script_name: Preliminary_create_binary
+  Preliminary_experiment_setup:
+    script_name: Preliminary_experiment_setup
+  Preliminary_experiment:
+    script_name: Preliminary_experiment
+  Preliminary_plot:
+    script_name: Preliminary_plot
