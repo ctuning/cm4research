@@ -1,4 +1,4 @@
-# CM interface to reproduce experiments from research projects
+# Common CM interface to make it easier to prepare, run and reproduce experiments from research projects
 
 ## About
 
