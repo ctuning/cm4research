@@ -15,6 +15,11 @@ using the CM automation language and plug it into MLPerf BERT inference benchmar
 * [Arjun Suresh](https://www.linkedin.com/in/arjunsuresh)
 * [Grigori Fursin](https://cKnowledge.org/gfursin)
 
+## Dependencies
+
+* Extended version of this pruner is taken from [this repo](https://github.com/cknowledge/retraining-free-pruning).
+* BERT model is taken from the [Hugging Face](https://huggingface.co/cknowledge/mlperf-inference-bert-pytorch-fp32-squad-v1.1/tree/main).
+
 ## Outcome
 
 [Anandu S](https://access.cknowledge.org/playground/?action=contributors&name=457012971d334b25) 
@@ -27,13 +32,14 @@ at this stage. We need to check it with the authors.
 
 Install MLCommmons CM using [this guide](https://github.com/mlcommons/ck/blob/master/docs/installation.md).
 
-Install reusable MLCommons automations: 
+Install portable and reusable MLCommons automation scripts: 
 
 ```bash
 cm pull repo mlcommons@ck
 ```
 
-Install this repository with CM interface for reproduced experiments:
+Install this repository with a common CM interface to access research projects and reproduce experiments:
+
 ```bash
 cm pull repo ctuning@cm-reproduce-research-projects
 ```
