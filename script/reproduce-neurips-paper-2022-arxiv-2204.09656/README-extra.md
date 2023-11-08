@@ -52,6 +52,19 @@ Generate pruned model:
 cmr "reproduce neurips paper 2022 bert-pruner" (--contraint=...) --output_dir=$HOME/BERT-PRUNER
 ```
 
+Note, that since CM attempts to adapt MLPerf to your environment, your combination of dependencies
+may not have been tested by the community and may sometimes fail. In such case, please
+report issues [here](https://github.com/mlcommons/ck/issues) to help the community
+continuously and collaboratively improve CM workflows and make them more portable 
+(that's why we called our automation language "Collective Mind").
+
+For example, you may often need to uprage protobuf to the latest version until the community adds a better
+handling of the protobuf version to the CM pipeline:
+
+```bash
+pip install --upgrade protobuf
+```
+
 ### Run MLPerf with pruned model
 
 We can now use the following script with the CM command to run MLPerf and prepare submission:
