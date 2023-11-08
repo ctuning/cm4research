@@ -58,7 +58,7 @@ report issues [here](https://github.com/mlcommons/ck/issues) to help the communi
 continuously and collaboratively improve CM workflows and make them more portable 
 (that's why we called our automation language "Collective Mind").
 
-For example, you may often need to uprage protobuf to the latest version until the community adds a better
+For example, you may often need to upgrade protobuf to the latest version until the community adds a better
 handling of the protobuf version to the CM pipeline:
 
 ```bash
