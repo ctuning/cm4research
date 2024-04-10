@@ -41,7 +41,7 @@ cm pull repo mlcommons@ck
 Install this repository with a common CM interface to access research projects and reproduce experiments:
 
 ```bash
-cm pull repo ctuning@cm-reproduce-research-projects
+cm pull repo ctuning@cm4research
 ```
 
 ### Run pruner

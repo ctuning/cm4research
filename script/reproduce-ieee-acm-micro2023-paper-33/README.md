@@ -14,7 +14,7 @@ cm pull repo mlcommons@ck
 
 Install this repository with CM interface for reproduced experiments:
 ```bash
-cm pull repo ctuning@cm-reproduce-research-projects
+cm pull repo ctuning@cm4research
 ```
 
 ### Set up and start Docker container
@@ -44,7 +44,7 @@ conda activate spa
 ```bash
 python3 -m pip install cmind
 cm pull repo mlcommons@ck
-cm pull repo ctuning@cm-reproduce-research-projects
+cm pull repo ctuning@cm4research
 ```
 
 ### Download Ubuntu Image and Kernel

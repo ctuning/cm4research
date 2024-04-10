@@ -14,7 +14,7 @@ cm pull repo mlcommons@ck
 
 Install this repository with CM interface for reproduced experiments:
 ```bash
-cm pull repo ctuning@cm-reproduce-research-projects
+cm pull repo ctuning@cm4research
 ```
 
 ### Regenerate Figures via CM interface

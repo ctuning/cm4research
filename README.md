@@ -43,7 +43,7 @@ cm pull repo mlcommons@ck
 ### Install this repository
 
 ```bash
-cm pull repo ctuning@cm-reproduce-research-projects
+cm pull repo ctuning@cm4research
 ```
 
 ### List available interfaces for research projects
@@ -93,7 +93,7 @@ cm rm cache -f
 
 ## Add CM interface for new projects and papers
 
-You can just copy any [CM script](https://github.com/ctuning/cm-reproduce-research-projects/tree/main/script) 
+You can just copy any [CM script](https://github.com/ctuning/cm4research/tree/main/script) 
 and update `alias` in `_cm.yaml`. You can then extend it based on the following examples:
 
 * [CM script to reproduce MICRO paper](../../cm-mlops/script/reproduce-micro-paper-2023-victima) to reproduce results from a MICRO paper.
