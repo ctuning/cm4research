@@ -2,3 +2,6 @@ alias: ctuning@cm4research
 uid: 1cd6b4a9b1de4391
 
 git: true
+
+deps:
+  - name: mlcommons@ck
