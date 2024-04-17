@@ -4,4 +4,10 @@ uid: 1cd6b4a9b1de4391
 git: true
 
 deps:
-  - name: mlcommons@ck
+  - alias: mlcommons@cm4mlops
+    uid: 9e97bb72b0474657
+
+  - alias: mlcommons@ck
+    uid: a4705959af8e447a
+    conflict: True
+
