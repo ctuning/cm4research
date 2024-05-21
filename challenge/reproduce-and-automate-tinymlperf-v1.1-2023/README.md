@@ -2,10 +2,6 @@
 
 Reproduce and automate [TinyMLPerf benchmarks](https://github.com/mlcommons/tiny).
 
-Join this public [Discord server](https://discord.gg/JjWNWXKxwT) 
-to discuss with the community and organizers 
-how to use and enhance CK to run and optimize MLPerf inference benchmarks.
-
 ### Organizers
 
 * [MLCommons taskforce on automation and reproducibility](https://cKnowledge.org/mlcommons-taskforce)

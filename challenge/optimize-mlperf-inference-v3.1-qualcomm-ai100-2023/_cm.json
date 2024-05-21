@@ -6,7 +6,6 @@
   "date_open": "20230704",
   "points":3,
   "trophies":true,
-  "prize_short":"co-authoring white paper , $$$",
   "tags": [
     "modularize",
     "optimize",
@@ -22,6 +21,6 @@
     "mlperf-inference-ai100-v3.1-2023",
     "v3.1"
   ],
-  "title": "Add CM interface to run MLPerf inference benchmarks on Qualcomm AI100-based platforms",
+  "title": "Add the CM interface to run MLPerf inference benchmarks on Qualcomm AI100-based platforms",
   "uid": "09bd5f9e05ff46b1"
 }

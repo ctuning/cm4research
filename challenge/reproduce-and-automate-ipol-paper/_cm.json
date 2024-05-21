@@ -12,6 +12,6 @@
     "ipol",
     "paper"
   ],
-  "title": "Reproduce/replicate and automate IPOL paper (proof-of-concept)",
+  "title": "Reproduce results from the IPOL'22 journal paper using the CM automation framework (proof-of-concept)",
   "uid": "f284c08891c44058"
 }

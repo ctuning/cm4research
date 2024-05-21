@@ -18,6 +18,6 @@
     "nvidia",
     "mlperf-inference-v3.0-orin"
   ],
-  "title": "Reproduce/replicate MLPerf inference v3.0 results for Nvidia Jetson Orin",
+  "title": "Reproduce MLPerf inference v3.0 results for Nvidia Jetson Orin",
   "uid": "6d377c1a1b224636"
 }

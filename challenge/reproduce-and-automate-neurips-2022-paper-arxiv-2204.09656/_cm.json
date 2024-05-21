@@ -8,7 +8,6 @@
   "experiments": [],
   "points":3,
   "trophies":true,
-  "prize_short":"co-authoring white paper , $$$ , presenting at the next HiPEAC/ACM workshop on reproducibility",
   "tags": [
     "reproduce",
     "replicate",
@@ -16,6 +15,6 @@
     "neurips-2022",
     "arxiv-2204.09656"
   ],
-  "title": "Reproduce NeurIPS 2022 paper for fast BERT pruning and integrate with the MLPerf inference benchmark",
+  "title": "Reproduce results from the NeurIPS 2022 paper for fast BERT pruning and integrate with the MLPerf inference benchmark",
   "uid": "76885addc4c64f82"
 }

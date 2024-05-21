@@ -12,7 +12,7 @@
     "reproduce-papers",
     "ae-sc2016"
   ],
-  "title": "Reproducing papers at ACM/IEEE SuperComputing'16 (artifact evaluation)",
+  "title": "Reproduce results from published papers at ACM/IEEE SuperComputing'16 (artifact evaluation)",
   "uid": "b12cafdf81154f64",
   "url": "http://sc17.supercomputing.org/2017/02/07/submitting-a-technical-paper-to-sc17-participate-in-the-sc17-reproducibility-initiative"
 }

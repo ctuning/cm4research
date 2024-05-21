@@ -6,7 +6,6 @@
   "date_open": "20230725",
   "experiments": [],
   "points": 2,
-  "prize_short": "co-authoring white paper , $$$",
   "sort": -20,
   "tags": [
     "run",
@@ -15,7 +14,7 @@
     "v3.1",
     "mlperf-inference-v3.1-simple-cpu"
   ],
-  "title": "MLPerf@home: help the community find the most efficient CPUs (Intel/AMD/Arm) for BERT and MobileNets/EfficientNets (latency, throughput, accuracy, number of cores, frequency, memory size, cost and other metrics)",
+  "title": "Work with the community to find the most efficient CPUs (Intel/AMD/Arm) for BERT and MobileNets/EfficientNets (latency, throughput, accuracy, number of cores, frequency, memory size, cost and other metrics)",
   "skip": true,
   "trophies": true,
   "uid": "498f33f3dac647c1"

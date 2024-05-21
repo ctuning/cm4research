@@ -4,11 +4,9 @@ uid: 7c983102d89e4869
 automation_alias: challenge
 automation_uid: 3d84abd768f34e08
 
-title: "Compose high-performance and cost-efficint AI systems using MLCommons' Collective Mind and MLPerf inference v4.0"
+title: "Compose high-performance and cost-efficint AI systems using MLCommons' Collective Mind and MLPerf inference"
 
-date_open: '20240301'
-
-hot: true
+date_open: '20240101'
 
 tags:
 - compose

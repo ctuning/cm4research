@@ -1,0 +1,21 @@
+{
+  "alias": "organize-quantum-hackathon-ecole-42-paris",
+  "automation_alias": "challenge",
+  "automation_uid": "3d84abd768f34e08",
+  "date_close": "20190127",
+  "date_open": "20190127",
+  "tags": [
+    "organize",
+    "events",
+    "events-tournaments",
+    "tournament",
+    "reproducible-benchmarking",
+    "reproducible-optimization",
+    "hackathon",
+    "ck-hackathon",
+    "quantum"
+  ],
+  "title": "Organize Quantum Collective Knowledge hackathon at Ecole 42 in Paris",
+  "url": "https://github.com/ctuning/ck-quantum/blob/master/module/hackathon.20190127/README.md",
+  "uid": "8aca19ea09d04a21"
+}

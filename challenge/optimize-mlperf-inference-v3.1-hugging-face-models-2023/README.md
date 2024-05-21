@@ -30,10 +30,6 @@ Some results showcases CK workflow to benchmark Hugging Face models with MLPerf 
 * https://access.cknowledge.org/playground/?action=experiments&name=2f1f70d8b2594149
 * https://access.cknowledge.org/playground/?action=experiments&name=mlperf-inference--v3.0--edge--open-power--language-processing--offline&result_uid=9d2594448bbb4b45
 
-Join our public [Discord server](https://discord.gg/JjWNWXKxwT) and/or
-our [weekly conf-calls](https://docs.google.com/document/d/1zMNK1m_LhWm6jimZK6YE05hu4VH9usdbKJ3nBy-ZPAw/edit)
-to discuss this challenge with the organizers.
-
 Read [this documentation](https://github.com/mlcommons/ck/blob/master/docs/mlperf/inference/README.md) 
 to run reference implementations of MLPerf inference benchmarks 
 using the CM automation language and use them as a base for your developments.
@@ -42,7 +38,6 @@ Check [this ACM REP'23 keynote](https://doi.org/10.5281/zenodo.8105339) to learn
 
 ### Prizes
 
-* *All contributors will participate in writing a common white paper about running and comparing MLPerf inference benchmarks out-of-the-box.*
 * *All contributors will receive 1 point for submitting valid results for 1 complete benchmark on one system.*
 * *All contributors will receive an official MLCommons Collective Knowledge contributor award (see [this example](https://ctuning.org/awards/ck-award-202307-zhu.pdf)).*
 * *The top contributors will receive cash prizes from [MLCommons organizations](https://mlcommons.org) and [cKnowledge.org](https://www.linkedin.com/company/cknowledge)*.

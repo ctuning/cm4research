@@ -7,16 +7,11 @@ and submit public results to the MLPerf inference v3.0 via [cTuning foundation](
 * [GUI to run MLPerf inference benchmarks](https://cknowledge.org/mlperf-inference-gui)
 * [GUI to prepare MLPerf inference submissions](https://cknowledge.org/mlperf-inference-submission-gui)
 
-Join this public [Discord server](https://discord.gg/JjWNWXKxwT) to discuss this challenge with the organizers.
-
 ### Organizers
 
 * [MLCommons Task Force on Automation and Reproducibility](https://github.com/mlcommons/ck/blob/master/docs/taskforce.md)
 * [cTuning foundation](https://cTuning.org)
 * [cKnowledge](https://cKnowledge.org)
-
-Contact [Grigori Fursin](https://cKnowledge.org/gfursin) and [Arjun Suresh](https://www.linkedin.com/in/arjunsuresh)
-for more details.
 
 ### Status
 

@@ -49,7 +49,7 @@ You can register your participation for the [Collective Knowledge leaderboard]( 
 using this [guide](https://github.com/mlcommons/ck/blob/master/platform/register.md).
 
 Please report encountered problems using [GitHub issues](https://github.com/mlcommons/ck/issues)
-and the public [Discord server](https://discord.gg/JjWNWXKxwT) to help the community
+to help the community
 improve the portability of the CM automation for MLPerf and other benchmarks and projects.
 
 You can also talk to organizers at any time using above [Discord server](https://discord.gg/JjWNWXKxwT) or 
@@ -61,7 +61,6 @@ Looking forward to your submissions and happy hacking!
 
 ### Prizes
 
-* *All submitters will participate in writing a common white paper about running and comparing MLPerf inference benchmarks out-of-the-box.*
 * *All submitters will receive 1 point for submitting valid results for 1 complete benchmark on one system.*
 * *All submitters will receive an official MLCommons Collective Knowledge contributor award (see [this example](https://ctuning.org/awards/ck-award-202307-zhu.pdf)).*
 * *The top contributors will receive cash prizes from [MLCommons organizations](https://mlcommons.org) and [cKnowledge.org](https://www.linkedin.com/company/cknowledge)*.

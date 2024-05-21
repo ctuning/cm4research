@@ -1,0 +1,26 @@
+{
+  "alias": "automate-avcc-using-cm",
+  "automation_alias": "challenge",
+  "automation_uid": "3d84abd768f34e08",
+  "date_close_extension": true,
+  "date_open": "20240204",
+  "points": 2,
+  "tags": [
+    "modularize",
+    "optimize",
+    "reproduce",
+    "replicate",
+    "benchmark",
+    "automate",
+    "medperf",
+    "mlperf-inference",
+    "mlperf-inference-medperf",
+    "mlperf-inference-medperf",
+    "mlperf-inference-medperf-v3.1",
+    "mlperf-inference-medperf-v3.1-2023",
+    "v3.1"
+  ],
+  "title": "Automate AVCC/ABTF benchmarking using CM",
+  "trophies": true,
+  "uid": "6477567bd6e645e5"
+}

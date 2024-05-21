@@ -312,7 +312,3 @@ cm run script --tags=generate-run-cmds,inference,_performance-only \
 
 
 
-## Questions? Suggestions?
-
-Don't hesitate to get in touch with the community and organizers 
-via [public Discord server](https://discord.gg/JjWNWXKxwT).

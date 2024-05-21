@@ -12,12 +12,9 @@
     "benchmark",
     "mlperf",
     "mlperf-inference",
-    "mlperf-inference-retinanet",
-    "retinanet",
-    "mlperf-inference-v2.0",
-    "mlperf-inference-v2.0-2022",
-    "v2.0"
+    "mlperf-inference-scc",
+    "mlperf-inference-scc-2023"
   ],
-  "title": " Reproduce/replicate and optimize MLPerf inference v3.1 benchmarks at the Student Cluster Competition'23 at SuperComputing'23",
+  "title": "Reproduce and optimize MLPerf inference v3.1 benchmarks at the Student Cluster Competition'23 at SuperComputing'23 using CM",
   "uid": "ddaf594f84b14bc2"
 }

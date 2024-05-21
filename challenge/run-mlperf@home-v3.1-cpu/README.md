@@ -16,12 +16,7 @@ in a native environment or Docker container using the portable and technology-ag
 Your name and benchmark submissions will be published in the official MLCommons inference v3.1 results
 on September 1, 2023 (submission deadline: August 4, 2023), 
 will be published in the [official leaderboard](https://access.cknowledge.org/playground/?action=contributors),
-will be included to the prize draw, and will be presented in our upcoming ACM/HiPEAC events 
-and joint white paper about crowd-benchmarking AI/ML systems similar to SETI@home.
-
-If you have questions or would like to discuss this challenge with the community and organizers, 
-please don't hesitate to join our [public Discord server](https://discord.gg/JjWNWXKxwT)
-and [weekly conf-calls](https://docs.google.com/document/d/1zMNK1m_LhWm6jimZK6YE05hu4VH9usdbKJ3nBy-ZPAw/edit).
+will be included to the prize draw, and will be presented in our upcoming ACM/HiPEAC events.
 
 Please report encountered problems using [GitHub issues](https://github.com/mlcommons/ck)
 to help the community improve CM automation workflows to run MLPerf benchmarks on any system with any software/hardware stack.
@@ -60,7 +55,6 @@ build efficient AI/ML systems.
 ### Organizers
 
 * [MLCommons Task Force on Automation and Reproducibility](https://cKnowledge.org/mlcommons-taskforce) 
-  led by [Grigori Fursin](https://cKnowledge.org/gfursin) and [Arjun Suresh](https://www.linkedin.com/in/arjunsuresh)
 * [cTuning.org](https://www.linkedin.com/company/ctuning-foundation)
 * [cKnowledge.org](https://www.linkedin.com/company/cknowledge)
 

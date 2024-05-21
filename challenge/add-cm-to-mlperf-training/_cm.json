@@ -1,0 +1,20 @@
+{
+  "alias": "add-cm-to-mlperf-training",
+  "automation_alias": "challenge",
+  "automation_uid": "3d84abd768f34e08",
+  "date_close_extension": true,
+  "date_open": "20240203",
+  "points": 2,
+  "tags": [
+    "modularize",
+    "optimize",
+    "reproduce",
+    "replicate",
+    "benchmark",
+    "training",
+    "mlperf-training"
+  ],
+  "title": "Add CM interface to the MLPerf training benchmark",
+  "trophies": true,
+  "uid": "3ba3753836ab4987"
+}

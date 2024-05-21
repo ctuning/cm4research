@@ -13,7 +13,7 @@
     "reproduce-papers",
     "ae-cgo-ppopp2017"
   ],
-  "title": "Reproducing papers at ACM/IEEE CGO'17 and PPoPP'17 (artifact evaluation)",
+  "title": "Reproduce results from published papers at ACM/IEEE CGO'17 and PPoPP'17 (artifact evaluation)",
   "uid": "a2f5d1dd280e465c",
   "urls": [
     "https://cTuning.org/ae/ppopp2017.html",

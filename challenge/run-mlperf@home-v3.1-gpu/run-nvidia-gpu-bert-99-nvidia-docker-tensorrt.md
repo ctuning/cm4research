@@ -69,9 +69,6 @@ For x86 machines, please download the following TAR files:
 2. [TensorRT](https://developer.nvidia.com/tensorrt) - note that Nvidia recommends `TensorRT-8.6.1.6.Linux.x86_64-gnu.cuda-11.8.tar.gz`
    but you can try another version
 
-Please ask privately in [this Discord server](https://discord.gg/y7hupJsUNb) if you would like to get access 
-to an Amazon S3 bucket containing all the needed files to automatically download them for the MLPerf submission. 
-
 
 ### Set up Nvidia Docker container with MLPerf benchmarks
 

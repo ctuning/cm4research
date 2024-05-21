@@ -1,6 +1,6 @@
 ### Challenge
 
-Reproduce and automate IPOL paper (proof-of-concept): 
+Reproduce and automate IPOL paper (proof-of-concept): https://github.com/ctuning/cm4research/blob/main/script/reproduce-ipol-paper-2022-439a/README-extra.md
 
 #### Organizers
 

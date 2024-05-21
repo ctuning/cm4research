@@ -18,6 +18,6 @@
     "tinymlperf-inference-v3.0-2023",
     "v1.0"
   ],
-  "title": "Reproduce/replicate and optimize TinyMLPerf inference v1.1 benchmarks",
+  "title": "Reproduce and optimize TinyMLPerf inference v1.1 benchmarks",
   "uid": "d98cd66e0e5641f7"
 }

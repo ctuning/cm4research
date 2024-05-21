@@ -12,7 +12,7 @@
     "reproduce-papers",
     "ae-asplos2022"
   ],
-  "title": "Reproduce/replicate papers at ACM ASPLOS'22 (artifact evaluation)",
+  "title": "Reproduce results from published papers at ACM ASPLOS'22 (artifact evaluation)",
   "uid": "ca8f301e93d74ab2",
   "url": "https://ctuning.org/ae/asplos2022.html",
   "use_self_url": "yes"

@@ -6,7 +6,6 @@
   "date_open": "20230704",
   "experiments": [],
   "points": 1,
-  "prize_short": "co-authoring white paper , $$$",
   "sort": -10,
   "tags": [
     "modularize",
@@ -21,7 +20,7 @@
     "mlperf-inference-v3.1-2023",
     "v3.1"
   ],
-  "title": "For advanced users: crowd-benchmark all MLPerf inference benchmarks similar to SETI@home (latency, throughput, power consumption, accuracy, costs)",
+  "title": "Crowd-benchmark all MLPerf inference benchmarks similar to SETI@home (latency, throughput, power consumption, accuracy, costs)",
   "trophies": true,
   "uid": "3e971d8089014d1f"
 }

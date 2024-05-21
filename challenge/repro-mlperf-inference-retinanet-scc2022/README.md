@@ -1,7 +1,7 @@
 ### Challenge
 
 Reproduce the MLPerf inference RetinaNet benchmark during Student Cluster Competition at SuperComputing'22
-using the following [CK2(CM) tutorial](https://github.com/mlcommons/ck/blob/master/docs/tutorials/sc22-scc-mlperf.md).
+using the following [CM tutorial](https://github.com/mlcommons/ck/blob/master/docs/tutorials/sc22-scc-mlperf.md).
 
 ### Organizers
 

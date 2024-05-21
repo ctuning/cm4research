@@ -15,6 +15,6 @@
     "mlperf-inference-scc",
     "mlperf-inference-scc-2022"
   ],
-  "title": "Reproduce/replicate MLPerf RetinaNet benchmark at SCC (SuperComputing'22)",
+  "title": "Automate MLPerf RetinaNet benchmark at the Student Cluster Competition at SuperComputing'22 using CM",
   "uid": "e71fa8b396874e68"
 }

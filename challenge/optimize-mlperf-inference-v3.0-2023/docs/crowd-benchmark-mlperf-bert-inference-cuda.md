@@ -95,7 +95,6 @@ Otherwise, this script will attempt to download and install the latest CUDA
 from Nvidia website.
 
 Please report any issue with CM scripts [here](https://github.com/mlcommons/ck/issues).
-Also join our [Discord server](https://discord.gg/JjWNWXKxwT) if you have any questions or suggestions.
 
 ### Test CUDA installation
 
@@ -282,5 +281,3 @@ and the public [Discord server](https://discord.gg/JjWNWXKxwT) to learn about ou
 
 Our ultimate goal is to help anyone automatically find or generate the optimal software/hardware stack from the cloud to the edge
 for their AI/ML tasks based on their requrements and constraints (accuracy, performance, power consumption, costs, etc).
-
-*Prepared by [Arjun Suresh](https://www.linkedin.com/in/arjunsuresh) and [Grigori Fursin](https://cKnowledge.org/gfursin) (OctoML, MLCommons, cTuning foundation)*
