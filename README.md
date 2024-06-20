@@ -37,7 +37,7 @@ Install CM automation language as described [here](https://github.com/mlcommons/
 ### Install common research automations from MLCommons via CM
 
 ```bash
-cm pull repo mlcommons@ck
+cm pull repo mlcommons@cm4mlops --branch=dev
 ```
 
 ### Install this repository
