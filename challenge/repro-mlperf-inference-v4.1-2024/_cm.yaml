@@ -4,9 +4,9 @@ uid: 2093f4d750144df4
 automation_alias: challenge
 automation_uid: 3d84abd768f34e08
 
-title: Automate and reproduce MLPerf inference benchmark v4.1 using CM
+title: 'Participate in the MLPerf inference v4.1 community submission (collaborative benchmarking and co-design of commodity hardware and software using MLPerf and CM). Deadline: 20 July 2024'
 
-date_open: '20240401'
+date_open: '20240621'
 
 tags:
 - modularize

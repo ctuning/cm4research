@@ -14,6 +14,6 @@
     "mlperf-inference-scc",
     "mlperf-inference-scc-2024"
   ],
-  "title": "Automate and optimize MLPerf inference v4.0 benchmarks at the Student Cluster Competition'24 at SuperComputing'24 using CM",
+  "title": "Run and optimize MLPerf inference benchmark using CM at the ACM/IEE Student Cluster Competition'24 at SuperComputing",
   "uid": "f7fcba4c43ab4412"
 }
