@@ -4,9 +4,9 @@ uid: 2093f4d750144df4
 automation_alias: challenge
 automation_uid: 3d84abd768f34e08
 
-title: 'Participate in the MLPerf inference v4.1 community submission (collaborative benchmarking and co-design of commodity hardware and software using MLPerf and CM). Deadline: 20 July 2024'
+title: 'Participate in the MLPerf inference v4.1 submission (collaborative benchmarking and co-design of commodity hardware and software using MLPerf and CM). Deadline: 26 July 2024'
 
-date_open: '20240621'
+date_open: '20240626'
 
 tags:
 - modularize
