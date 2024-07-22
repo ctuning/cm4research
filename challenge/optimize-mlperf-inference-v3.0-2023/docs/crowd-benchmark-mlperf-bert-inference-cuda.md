@@ -276,8 +276,6 @@ cm run script --tags=generate-run-cmds,inference,_accuracy-only,_all-scenarios \
 
 # The next steps
 
-Feel free to join our [open taskforce on automation and reproducibility](https://github.com/mlcommons/ck/blob/master/docs/taskforce.md)
-and the public [Discord server](https://discord.gg/JjWNWXKxwT) to learn about our roadmap and related community projects.
+Please follow the [cTuning foundation](https://cTuning.org), [cKnowledge.org](https://cKnowledge.org)
+and [MLCommons](https://mlcommons.org).
 
-Our ultimate goal is to help anyone automatically find or generate the optimal software/hardware stack from the cloud to the edge
-for their AI/ML tasks based on their requrements and constraints (accuracy, performance, power consumption, costs, etc).

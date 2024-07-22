@@ -189,5 +189,5 @@ Follow [this guide](https://github.com/mlcommons/ck/blob/master/docs/mlperf/infe
 
 ## Questions? Suggestions?
 
-Don't hesitate to get in touch with the community and organizers 
-via [public Discord server](https://discord.gg/JjWNWXKxwT).
+Please follow the [cTuning foundation](https://cTuning.org), [cKnowledge.org](https://cKnowledge.org)
+and [MLCommons](https://mlcommons.org).

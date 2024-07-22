@@ -95,7 +95,6 @@ Otherwise, this script will attempt to download and install the latest CUDA
 from Nvidia website.
 
 Please report any issue with CM scripts [here](https://github.com/mlcommons/ck/issues).
-Also join our [Discord server](https://discord.gg/JjWNWXKxwT) if you have any questions or suggestions.
 
 ### Test CUDA installation
 

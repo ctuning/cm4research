@@ -52,9 +52,6 @@ Please report encountered problems using [GitHub issues](https://github.com/mlco
 to help the community
 improve the portability of the CM automation for MLPerf and other benchmarks and projects.
 
-You can also talk to organizers at any time using above [Discord server](https://discord.gg/JjWNWXKxwT) or 
-during our [weekly conf-calls](https://docs.google.com/document/d/1zMNK1m_LhWm6jimZK6YE05hu4VH9usdbKJ3nBy-ZPAw/edit).
-
 Looking forward to your submissions and happy hacking!
 
 

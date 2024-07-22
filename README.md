@@ -3,9 +3,9 @@
 ## About
 
 This CM repository contains a [unified Collective Mind interface (MLCommons CM)](https://github.com/mlcommons/ck) 
-to access, run and reproduce experimetns from research projects and papers (ACM, IEEE, NeurIPS, ICML ...)
-using artifact evaluation methodology and automation from [MLCommons](https://doi.org/10.5281/zenodo.8105339), 
-[ACM/cTuning](https://cTuning.org/ae) and [NeurIPS](https://jmlr.org/papers/volume22/20-303/20-303.pdf).
+to access, run and reproduce experiments from research projects and benchmarks (ACM, IEEE, NeurIPS, ICML, MLCommons, MLPerf ...)
+in a unified and automated way using the artifact evaluation methodology from [ACM/IEEE/cTuning](https://cTuning.org/ae),
+[MLCommons](https://doi.org/10.5281/zenodo.8105339) and [NeurIPS](https://jmlr.org/papers/volume22/20-303/20-303.pdf).
 
 ## Why?
 
@@ -23,16 +23,13 @@ The goal is to make it easier for the community and evaluators
 to start reproducing/replicating research results 
 and even fully automate this process in the future.
 
-Note that it's a pilot project - we are very interested in your feedback to improve this interface
-and simplify and automate artifact evaluation. Feel free to contact us via this [Discord server](https://discord.gg/JjWNWXKxwT).
-
 ## License
 
 [MIT](LICENSE.md)
 
 ## How to use
 
-Install CM automation language as described [here](https://github.com/mlcommons/ck/blob/master/docs/installation.md).
+Install the CM automation language as described [here](https://access.cknowledge.org/playground/?action=install).
 
 ### Install common research automations from MLCommons via CM
 
@@ -112,6 +109,6 @@ to add CM interface to new projects and papers and will share it soon!
 
 ## Contact us
 
-Don't hesitate to reach the [MLCommons Task Force on Automation and Reproducibility](https://github.com/mlcommons/ck/blob/master/docs/taskforce.md) 
-and the [cTuning foundation](https://cTuning.org) (developers of the open-source CM automation language and CK playground)
-to provide your feedback, get help or brainstorm ideas using this public [Discord server](https://discord.gg/JjWNWXKxwT).
+Don't hesitate to open tickets [here](https://github.com/mlcommons/ck/issues) 
+or contact the [cTuning foundation](https://cTuning.org) and [cKnowledge.org](https://cKnowledge.org) 
+(developers of the MLCommons CM automation framework).
