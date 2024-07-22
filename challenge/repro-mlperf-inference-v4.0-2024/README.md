@@ -1,7 +1,3 @@
-This challenge is under preparation.
-
-* A prototype of a GUI to generate CM commands to run MLPerf inference benchmarks is ready: [link](https://access.cknowledge.org/playground/?action=howtorun&bench_uid=39877bb63fb54725)
-* A prototype of the infrastructure to reproduce MLPerf inference benchmark results is ready: [link](https://access.cknowledge.org/playground/?action=reproduce)
-* On-going efforts: https://github.com/mlcommons/ck/issues/1052
-
-Contact the [MLCommons Task Force on Automation and Reproducibility](https://github.com/mlcommons/ck/blob/master/docs/taskforce.md) for more details.
+The [MLCommons](https://mlcommons.org), [cTuning foundation](https://cTuning.org) and [cKnowledge.org](https://cKnowledge.org) 
+are preparing a unified interface to reproduce results from the MLPerf inference benchmark submission v4.0.
+Please feel free to join the testing phase using [GitHub issues](https://github.com/mlcommons/ck/issues)!
