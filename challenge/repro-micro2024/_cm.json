@@ -1,0 +1,17 @@
+{
+  "alias": "repro-micro2024",
+  "automation_alias": "challenge",
+  "automation_uid": "3d84abd768f34e08",
+  "date_close": "20240915",
+  "date_open": "20240810",
+  "tags": [
+    "reproduce",
+    "replicate",
+    "automate",
+    "papers",
+    "reproduce-papers",
+    "ae-micro2024"
+  ],
+  "title": "Help reproduce results from the accepted ACM/IEEE MICRO'24 papers (artifact evaluation)",
+  "uid": "8f24eeb72e0d471e"
+}
