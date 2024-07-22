@@ -2,7 +2,6 @@
   "alias": "repro-micro2024",
   "automation_alias": "challenge",
   "automation_uid": "3d84abd768f34e08",
-  "date_close": "20240915",
   "date_open": "20240810",
   "tags": [
     "reproduce",
