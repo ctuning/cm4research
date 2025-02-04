@@ -16,5 +16,6 @@
   ],
   "title": "Add CM interface to the MLPerf training benchmark",
   "trophies": true,
-  "uid": "3ba3753836ab4987"
+  "uid": "3ba3753836ab4987",
+  "skip": true
 }

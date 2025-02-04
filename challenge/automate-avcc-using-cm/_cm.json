@@ -22,5 +22,6 @@
   ],
   "title": "Automate AVCC/ABTF benchmarking using CM",
   "trophies": true,
-  "uid": "6477567bd6e645e5"
+  "uid": "6477567bd6e645e5",
+  "skip": true
 }
